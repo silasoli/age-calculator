@@ -5,6 +5,9 @@
 }
 
 .container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   min-height: 100vh;
   background-color: black;
@@ -24,7 +27,15 @@
   border-radius: 5px;
 }
 
+.form label {
+  width: 90%;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .input {
+  text-align: start !important;
   background-color: black;
   color: #fff;
   width: 90%;
@@ -37,16 +48,11 @@
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
-  margin: 0;
-}
-
-.label {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 0px 0px 0px 0px;
 }
 
 .button {
-  margin: 15px;
+  margin: 15px 0px 15px 0px;
   width: 90%;
   height: 40px;
   color: black;
@@ -58,5 +64,5 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .result {
-  margin: 15px;
+  margin-top: 15px;
 }

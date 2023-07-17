@@ -24,7 +24,6 @@ function App() {
     setYear(0);
   }
 
-
   return (
     <div className="container centralize">
       <h1 id="title">Descubra sua idade</h1>
