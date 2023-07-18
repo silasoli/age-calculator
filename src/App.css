@@ -27,12 +27,11 @@
 .form label {
   width: 90%;
   float: left;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .input {
-  text-align: start !important;
   background-color: black;
   color: #fff;
   width: 90%;
